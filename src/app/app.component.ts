@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'unit-testing-hexa-may2021';
+
+  add(a: number, b: number): number {
+    return a + b;
+  }
 }
